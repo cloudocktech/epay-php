@@ -8,4 +8,9 @@ docker run \
 -e TZ=Asia/Shanghai \
 -v /opt/mapper/website/epay:/var/www/html \
 epay:latest
+
+```
+
+```
+chown -R www-data:www-data /opt/mapper/website/epay
 ```
